@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid red;
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-4{
+    border: 1px solid green;
+    width: 25%;
+  
+}
+
+.box{
+    height: 250px;
+}
+
+.w-4:first-child .box{
+    background-image: url(https://t4.ftcdn.net/jpg/07/22/97/85/360_F_722978590_gU9ZcHW6zsLiNPUzRRLsrtT2PNOo7Lfk.jpg);
+    background-size: cover;
+}
+
+.w-4:nth-child(2) .box{
+    background-image: url(https://t4.ftcdn.net/jpg/07/22/97/85/360_F_722978590_gU9ZcHW6zsLiNPUzRRLsrtT2PNOo7Lfk.jpg);
+    background-size: cover;
+}
+
+.w-4:nth-child(3) .box{
+    background-image: url(https://t4.ftcdn.net/jpg/07/22/97/85/360_F_722978590_gU9ZcHW6zsLiNPUzRRLsrtT2PNOo7Lfk.jpg);
+    background-size: cover;
+}
+
+.w-4:last-child .box{
+    background-image: url(https://t4.ftcdn.net/jpg/07/22/97/85/360_F_722978590_gU9ZcHW6zsLiNPUzRRLsrtT2PNOo7Lfk.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    border-radius: 15px;
+    max-width: 1320px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+}
+
+.nav{
+    display: flex;
+    justify-content:end;
+    gap: 25px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.nav{
+    width: 80%;
+}
+.menu{
+    width: 50px;
+}
